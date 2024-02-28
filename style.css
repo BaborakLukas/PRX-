@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.rizek{
+    display: flex;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+    text-align: left;
+
+}
+
+.obrazek{
+    height: 100vh; /* Nastaví výšku těla na 100% výšky viewportu */
+    width: 98.9vw; /* Nastaví šířku těla na 100% šířky viewportu */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.velikost{
+    width: 60%;
+}
+.nadpis{
+    text-align: center;
+}
+p{
+    margin-right: 5%;
+    margin-top: 15%;
+    text-align: center;
+    margin-bottom: 20px;
+}
