@@ -1,5 +1,5 @@
 Instalace PHP a XAMPP serveru
-Krok 1: Stáhněte si PHP
+Krok 1: Stáhněte si PHP<br />
 Přejděte na oficiální stránku PHP:
 Otevřete webový prohlížeč a navštivte https://www.php.net/.
 Vyberte verzi PHP pro Windows:
