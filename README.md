@@ -1,4 +1,4 @@
-Instalace PHP a XAMPP serveru
+#Instalace PHP a XAMPP serveru<br />
 Krok 1: Stáhněte si PHP<br />
 Přejděte na oficiální stránku PHP:
 Otevřete webový prohlížeč a navštivte https://www.php.net/.
@@ -6,10 +6,10 @@ Vyberte verzi PHP pro Windows:
 Klikněte na "Downloads" v horní části stránky.
 Vyberte nejnovější stabilní verzi PHP pro Windows.
 Stáhněte soubor php-x.x.x-Win32-vc15-x64.zip (pokud máte 64-bitovou verzi Windows) nebo php-x.x.x-Win32-vc15-x86.zip (pokud máte 32-bitovou verzi Windows).
-Krok 2: Rozbalte stažený soubor
+Krok 2: Rozbalte stažený soubor<br />
 Rozbalte soubor:
-Po stažení souboru php-x.x.x-Win32-vc15-x64.zip nebo php-x.x.x-Win32-vc15-x86.zip rozbalte ho do složky na vašem počítači. Příklad: C:\php.
-Krok 3: Nastavte proměnné prostředí
+Po stažení souboru php-x.x.x-Win32-vc15-x64.zip nebo php-x.x.x-Win32-vc15-x86.zip rozbalte ho do složky na vašem počítači. Příklad: C:\php.<br />
+Krok 3: Nastavte proměnné prostředí<br />
 Otevřete Nastavení systému:
 Klikněte pravým tlačítkem na ikonu Windows a vyberte "Nastavení systému".
 V levém menu klikněte na "Systém" a poté na "O pokročilých nastaveních systému".
@@ -18,7 +18,7 @@ V okně "Vlastnosti systému" klikněte na tlačítko "Proměnné prostředí".
 V sekci "Systémové proměnné" vyhledejte proměnnou Path a klikněte na "Upravit".
 Klikněte na "Nový" a přidejte cestu k vaší složce PHP, například C:\php.
 Klikněte na "OK" a zavřete všechna okna.
-Krok 4: Ověřte instalaci
+Krok 4: Ověřte instalaci<br />
 Otevřete příkazový řádek:
 Stiskněte Windows + R, zadejte cmd a stiskněte Enter.
 Zkontrolujte verzi PHP:
@@ -27,7 +27,7 @@ Měli byste vidět verzi PHP, kterou jste právě nainstalovali.
 Krok 5: Instalace a konfigurace webového serveru (volitelné)
 Pokud plánujete používat PHP pro vývoj webových aplikací, můžete také nainstalovat a nakonfigurovat webový server, jako je Apache nebo Nginx. Tento krok je volitelný a závisí na vašich potřebách.
 
-Krok 6: Testování PHP skriptu
+Krok 6: Testování PHP skriptu<br />
 Vytvořte testovací PHP soubor:
 V složce C:\php vytvořte nový textový soubor s názvem info.php.
 Otevřete soubor v textovém editoru a vložte do něj následující kód:
