@@ -1,0 +1,8 @@
+{
+    "books": [
+      {"title": "Kytice", "genre": "poezie","author": "K.J.Erben"},
+      {"title": "120 dnů Sodomy", "genre": "román","author": "Marquis DeSade"},
+      {"title": "PlayBoy", "genre": "časopis","author": "Hugh Heffner"}
+    ]
+  }
+  
