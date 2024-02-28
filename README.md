@@ -1,4 +1,4 @@
-#Instalace PHP a XAMPP serveru<br />
+Instalace PHP a XAMPP serveru<br />
 Krok 1: Stáhněte si PHP<br />
 Přejděte na oficiální stránku PHP:
 Otevřete webový prohlížeč a navštivte https://www.php.net/.
