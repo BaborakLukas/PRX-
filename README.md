@@ -5,7 +5,7 @@ Otevřete webový prohlížeč a navštivte https://www.php.net/.
 Vyberte verzi PHP pro Windows:
 Klikněte na "Downloads" v horní části stránky.
 Vyberte nejnovější stabilní verzi PHP pro Windows.
-Stáhněte soubor php-x.x.x-Win32-vc15-x64.zip (pokud máte 64-bitovou verzi Windows) nebo php-x.x.x-Win32-vc15-x86.zip (pokud máte 32-bitovou verzi Windows).
+Stáhněte soubor php-x.x.x-Win32-vc15-x64.zip (pokud máte 64-bitovou verzi Windows) nebo php-x.x.x-Win32-vc15-x86.zip (pokud máte 32-bitovou verzi Windows).<br />
 Krok 2: Rozbalte stažený soubor<br />
 Rozbalte soubor:
 Po stažení souboru php-x.x.x-Win32-vc15-x64.zip nebo php-x.x.x-Win32-vc15-x86.zip rozbalte ho do složky na vašem počítači. Příklad: C:\php.<br />
@@ -17,17 +17,17 @@ Upravte proměnné prostředí:
 V okně "Vlastnosti systému" klikněte na tlačítko "Proměnné prostředí".
 V sekci "Systémové proměnné" vyhledejte proměnnou Path a klikněte na "Upravit".
 Klikněte na "Nový" a přidejte cestu k vaší složce PHP, například C:\php.
-Klikněte na "OK" a zavřete všechna okna.
+Klikněte na "OK" a zavřete všechna okna.<br />
 Krok 4: Ověřte instalaci<br />
 Otevřete příkazový řádek:
 Stiskněte Windows + R, zadejte cmd a stiskněte Enter.
 Zkontrolujte verzi PHP:
 V příkazovém řádku zadejte php -v a stiskněte Enter.
-Měli byste vidět verzi PHP, kterou jste právě nainstalovali.
-Krok 5: Instalace a konfigurace webového serveru (volitelné)
+Měli byste vidět verzi PHP, kterou jste právě nainstalovali.<br />
+Krok 5: Instalace a konfigurace webového serveru (volitelné)<br />
 Pokud plánujete používat PHP pro vývoj webových aplikací, můžete také nainstalovat a nakonfigurovat webový server, jako je Apache nebo Nginx. Tento krok je volitelný a závisí na vašich potřebách.
 
-Krok 6: Testování PHP skriptu<br />
+<br />Krok 6: Testování PHP skriptu<br />
 Vytvořte testovací PHP soubor:
 V složce C:\php vytvořte nový textový soubor s názvem info.php.
 Otevřete soubor v textovém editoru a vložte do něj následující kód:
@@ -39,10 +39,10 @@ Spusťte PHP skript:
 Otevřete webový prohlížeč a zadejte http://localhost/info.php do adresního řádku.
 Měli byste vidět stránku s informacemi o instalaci PHP na vašem počítači.
 Závěr
-Gratulujeme, úspěšně jste nainstalovali PHP na svůj počítač s Windows. Nyní můžete začít s vývojem webových aplikací v PHP.
+Gratulujeme, úspěšně jste nainstalovali PHP na svůj počítač s Windows. Nyní můžete začít s vývojem webových aplikací v PHP.<br />
 
 
-Můj kód vytváří webovou stránku, která zobrazuje seznam knih z JSON souboru ve formě HTML tabulky. Každý řádek tabulky reprezentuje jednu knihu s informacemi o titulu, žánru a autorovi. Pro každou knihu je také poskytnut odkaz na další informace, který je specifický pro každou knihu.
+Můj kód vytváří webovou stránku, která zobrazuje seznam knih z JSON souboru ve formě HTML tabulky. Každý řádek tabulky reprezentuje jednu knihu s informacemi o titulu, žánru a autorovi. Pro každou knihu je také poskytnut odkaz na další informace, který je specifický pro každou knihu.<br />
 
 Načítání JSON dat: Kód začíná načtením dat z JSON souboru database1.json. Tato data obsahují informace o knihách, které mají být zobrazeny na stránce.
 Generování tabulky: Pokud jsou data úspěšně načtena a dekódována, kód vytváří HTML tabulku s hlavičkou obsahující tituly sloupců: Titul, Žánr, Autor, Info.
